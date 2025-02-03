@@ -1,0 +1,33 @@
+.ticket-list {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 2em;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h2 {
+    margin-bottom: 1em;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 1em;
+    border-bottom: 1px solid #CCCCCC;
+  }
+  
+  li h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  li p {
+    margin: 0.5em 0 0;
+    color: #666666;
+  }
