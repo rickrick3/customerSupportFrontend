@@ -7,7 +7,7 @@ const TicketList = () => {
 
   useEffect(() => {
     const fetchTickets = async () => {
-      const response = await axios.get('http://localhost:3000/api/tickets');
+      const response = await axios.get('https://customer-support-system-backend.vercel.app/api/tickets');
       setTickets(response.data);
     };
     fetchTickets();

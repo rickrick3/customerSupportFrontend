@@ -13,7 +13,7 @@ const TicketForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:3000/api/tickets', formData);
+      await axios.post('https://customer-support-system-backend.vercel.app/api/tickets', formData);
       console.log('Ticket created successfully');
     } catch (error) {
       console.error('Error creating ticket:', error);

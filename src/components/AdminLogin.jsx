@@ -26,7 +26,7 @@ const AdminLogin = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3000/api/admin-login', formData, {
+      const response = await axios.post('https://customer-support-system-backend.vercel.app/api/admin-login', formData, {
         headers: { 'Content-Type': 'application/json' }
       });
       

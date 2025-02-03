@@ -24,7 +24,7 @@ const UserRegistration = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:3000/api/user-register', formData, {
+      const response = await axios.post('https://customer-support-system-backend.vercel.app/api/user-register', formData, {
         headers: { 'Content-Type': 'application/json' }
       });
 
